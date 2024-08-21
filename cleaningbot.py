@@ -12,7 +12,7 @@ db = Database("Database1.db")
 # workers_list = db.own_query("SELECT telegram_id from Users WHERE role = 'employee'")[0]
 bot = telebot.TeleBot('6510684394:AAFsvSNzEk8GYqfRjRnO6N6WSsMMWWhi3Ic')
 workers_list = []
-admins_list = [769963229]
+admins_list = []
 user_data = {}
 user_review = {}
 
