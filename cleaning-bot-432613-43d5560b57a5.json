@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "cleaning-bot-432613",
+  "private_key_id": "43d5560b57a58ac80f89af5edecdba9b44f6266c",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDHqRRQtk9GM1qF\nFTLvK3Xk7xXwgNajmMUBZUMA+epqc7y98ulyFIfZMv/79+fTOovD4ZKBChoZkYBG\nDA243EBgqcT2Aic3K1KoV2TN5azv0yq1AHfa8jkLn97aouWM1FdcJM84TrNMEghf\nG4z7AD8l7j9O/eC4RsTH7+6esuYLW3eOu0fQEK6xu0tsuBwH2quUtvjihowPgVRd\nTwUhKhiSSF/Wyc/VBg0McnWHCxPCERZ3N5a/oNpU1ZVO/3cN+izxZaMNAahvHNoz\nHzbyh3HcBhssgSOIozm+DFsJqdbP3h29XY7EfIkpVfLPxVqNOoxX37M/DvzigvH3\nznndhxLtAgMBAAECggEABU3TkVVWg8nndLOcd8gSyLMlRQ9XJF9xlFjpT8RT2uIa\nOH2UgAhVl4qITFxIl07t2ZVLfAwVp2o7GyFE2A1Z1HeOGO7ztb574qb3sZSRZIma\nj9ZkWLeolkt38xzytiwJ6hO8QYWts66i9EvaEezuwIY0vld2Oc7/eURBdYvRGqoW\nXB2+U7hc/Kv69chQvpOmJayEyl5Mh79Gh0WlwFYJi5uZ7ZMMjmewvF1FbxCfBMib\ninw6sGtbIcQwEY4jf4pe9DdhhNoFMiwM6AeRSqdS+3bLFMSLKU8EG/tJDLm2a66y\nGOeCk9NfvmyVN8CLewny730DNY9muAFtKfQ/tbeiwQKBgQDr9dpF1C/vZqeQQCh9\n0CaSVAfbU9RY3HiWcVTXkiQwQfCtLFc6HbhecTNdUdTuwODi2NNC4eibi0cj1Rm/\nRQf9PeB5Ul5xfPLvTjRy6NzYFKqYMSQj19kw6ZIx+4LyFSwOATccsckku75Zz8bq\nuPoOIimB9QDDXe0OkSxvDJFIHQKBgQDYngKdfHAn+2KZiU3QFKZROmkOInXH2hoz\nCJ/kCkZ58AIwERYThGQDAB2+52sRPdMTjMfZboyjyYJo/EsFngdvSLfub9xoLT0F\nfz3MF7Efw9yIx/QrFvUOav121sCH40MTw49c2YIyUQSbvphbAqdtFrGIG1p/mNse\nv/lJm64dEQKBgQDGCnGpW/7jgpgupPqXJgXJmMeDWOeHsXtwYSxhReIjsqRq5CVN\nvLYKZh5DO7Rosu/M1UjzAKJ3Mj2CIJBcjXa4IJ/vk6d6vvEy0sOIklMQ9L99vvjj\nMH205MT0OHFd91Eja/eymLEGqKCJxq7gQGJ3TErkLRr33jRhnozZo4WoLQKBgEdj\n9BqxK0mSCRHu9Y0xcQruRDdbVhPyppXRLtj6JfYECsSKrQrrpAZ1IFiNbnT1Oj6E\nNE1NqN5GCEvPcm48gdjET5IunaZb2nOYVuaPnFmKtIED3U3iOAtzaWukJTnjxXSb\nDAGe0dEBcJJfw1ijTEigpQvlb/MDjpvYyzDeNQjxAoGAd6u5YGGAKEmkERvBSO5w\nFBcH05mbl2OBU+b5rRdLVf14VVWSCZoHZQYYb20pmD69A8+kw9f0KH4hNrfep6vr\nN8kXN3X1ArngYfsembmCdxYOFcifirZv8U5LvfuivDNwdyn2WJGMB7dgA1cJyXa0\nWAhWJxGPuHKN2lqYRBv5RBY=\n-----END PRIVATE KEY-----\n",
+  "client_email": "cleaningbotaccount@cleaning-bot-432613.iam.gserviceaccount.com",
+  "client_id": "112496416173524072671",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/cleaningbotaccount%40cleaning-bot-432613.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}
