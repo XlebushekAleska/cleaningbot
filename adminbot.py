@@ -134,6 +134,60 @@ def handle_admin_callback(bot, call):
                                                                  'email:\n'
                                  )
 
+
+# основа под реализацию  добавления telegran_id нового работника в бд и заполнение его прочей информации
+
+                # from telebot import TeleBot, types
+                #
+                # bot = TeleBot("YOUR_BOT_API_TOKEN")
+                #
+                # # Словарь для хранения состояний пользователей
+                # waiting_for_forward = {}
+                #
+                # @bot.message_handler(commands=['start'])
+                # def start_message(message):
+                #     markup = types.InlineKeyboardMarkup()
+                #     wait_for_forward_button = types.InlineKeyboardButton(text="Добавить сотрудника",
+                #                                                          callback_data="wait_for_forward")
+                #     markup.add(wait_for_forward_button)
+                #     bot.send_message(message.chat.id, "Нажмите кнопку ниже, чтобы добавить нового сотрудника.",
+                #                      reply_markup=markup)
+                #
+                # # Обработка нажатия кнопки
+                # @bot.callback_query_handler(func=lambda call: call.data == "wait_for_forward")
+                # def handle_wait_for_forward(call):
+                #     admin_id = call.from_user.id
+                #     waiting_for_forward[admin_id] = True  # Устанавливаем флаг ожидания пересланного сообщения
+                #     bot.send_message(call.message.chat.id, "Отправьте пересланное сообщение от нового сотрудника.")
+                #
+                # # Обработка всех текстовых сообщений
+                # @bot.message_handler(content_types=['text'])
+                # def handle_message(message):
+                #     admin_id = message.from_user.id
+                #
+                #     if waiting_for_forward.get(admin_id):
+                #         if message.forward_from:
+                #             employee_id = message.forward_from.id
+                #             # Здесь добавьте код для внесения ID в базу данных
+                #             bot.send_message(message.chat.id, f"ID сотрудника {employee_id} добавлен в базу данных.")
+                #             waiting_for_forward[admin_id] = False  # Сбрасываем флаг ожидания пересланного сообщения
+                #         else:
+                #             bot.send_message(message.chat.id, "Пожалуйста, пересланное сообщение от сотрудника.")
+                #     else:
+                #         bot.send_message(message.chat.id, "Для добавления сотрудника нажмите соответствующую кнопку.")
+                #
+                # # Запуск бота
+                # bot.polling()
+
+
+
+
+# _________________________________________________________________________________________________________________________
+# _________________________________________________________________________________________________________________________
+
+
+# основа для генератора под клавиатуру с переключениями страниц
+
 # def review_index_generator(start, direction):
 #     index = start
 #     while True:
