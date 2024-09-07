@@ -13,6 +13,7 @@ db = Database("Database1.db")
 bot = telebot.TeleBot('6510684394:AAFsvSNzEk8GYqfRjRnO6N6WSsMMWWhi3Ic')
 workers_list = []
 admins_list = [769963229]
+# 769963229
 user_data = {}
 user_review = {}
 
@@ -273,6 +274,7 @@ def cal(c):
 # Обработчик текстовых сообщений
 @bot.message_handler(func=lambda message: True)
 def echo_message(message):
+    # print(message)
     if message.chat.id in admins_list:
         handle_admin_messages(bot, message)  # Передаем управление на админский функционал
     elif message.chat.id in workers_list:
